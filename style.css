@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  /* .nav-bar {
+    width: 100%;
+    height: 20vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  } */
+/*   
+  nav .logo {
+    width: 25%;
+    text-align: center;
+  }
+   */
+
+  a.nav-link:hover{
+    color: #000 !important;
+  }
+  .nav-item a.active{
+    color: #00b894 !important;
+  }
+  main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .main h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .main h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  .main p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .main a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  .main .btnone {
+    /*background: #00b894;*/
+    background: #fff;
+    color: #000;
+  }
+  
+  .btnone:hover {
+    background: #00b894;
+    color: white;
+  }
+  
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+  }
+  
+.destination{
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.destination h1{
+  color: #00b894;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-style: bold;
+}
+.des-1{
+  box-shadow: 0px 2px 2px #888;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.des-img img{
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+.des-content{
+  padding: 15px;
+}
+.des-1 .des-content h2{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #000;
+}
+.des-content p{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #888;
+  text-align: left;
+}
+.btn a{
+  text-decoration: none;
+  color: #fff;
+}
+.des-content .btn{
+  background-color: #00b894;
+  width: 150px;
+  height: 40px;
+}
+.btn:hover{
+  background-color: #127662;
+}
+.footer{
+  padding-top: 20px;
+  width: 100%;
+  background-color: #dcdbdb;
+}
+  footer{
+    width: 23%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer P{
+    text-align: center;
+    display: inline-block;
+    
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "Kathmandu";
+    }
+    20% {
+      content: "Bhaktapur";
+    }
+    35% {
+      content: "Patan";
+    }
+    60% {
+      content: "Pokhara";
+    }
+    80% {
+      content: "Chitwan";
+    }
+    100% {
+      content: "Ilam";
+    }
+  }
